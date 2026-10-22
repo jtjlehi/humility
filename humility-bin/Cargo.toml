@@ -71,6 +71,7 @@ cmd-registers = { workspace = true }
 cmd-rencm = { workspace = true }
 cmd-rendmp = { workspace = true }
 cmd-ringbuf = { workspace = true }
+cmd-rp2040gpio = { workspace = true }
 cmd-sbrmi = { workspace = true }
 cmd-sensors = { workspace = true }
 cmd-spctrl = { workspace = true }

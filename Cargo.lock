@@ -1940,6 +1940,7 @@ dependencies = [
  "humility-cmd-rendmp",
  "humility-cmd-reset",
  "humility-cmd-ringbuf",
+ "humility-cmd-rp2040gpio",
  "humility-cmd-sbrmi",
  "humility-cmd-sensors",
  "humility-cmd-spctrl",
@@ -2646,6 +2647,19 @@ dependencies = [
  "humility-cli",
  "humility-core",
  "humility-doppel",
+]
+
+[[package]]
+name = "humility-cmd-rp2040gpio"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "clap",
+ "hif",
+ "humility-cli",
+ "humility-hiffy",
+ "parse_int",
+ "strum 0.28.0",
 ]
 
 [[package]]

@@ -1,0 +1,16 @@
+[package]
+name = "humility-cmd-rp2040gpio"
+version = "0.1.0"
+edition.workspace = true
+rust-version.workspace = true
+description = "RP2040 GPIO pin manipulation"
+
+[dependencies]
+anyhow.workspace = true
+clap.workspace = true
+hif.workspace = true
+parse_int.workspace = true
+strum.workspace = true
+
+humility-cli.workspace = true
+humility-hiffy.workspace = true
