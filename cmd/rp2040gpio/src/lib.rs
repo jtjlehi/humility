@@ -70,7 +70,7 @@ fn gpio(subargs: GpioArgs, context: &mut ExecutionContext) -> Result<()> {
     let gpio_set = context.get_function("GpioSet", 1)?;
     let gpio_reset = context.get_function("GpioReset", 1)?;
     let gpio_input = context.get_function("GpioInput", 1)?;
-    let gpio_direction = context.get_function("GpioDirection", 1)?;
+    let gpio_direction = context.get_function("GpioDirection", 2)?;
 
     let target = if subargs.input {
         gpio_input
